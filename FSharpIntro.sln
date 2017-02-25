@@ -13,6 +13,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MoveAndTurn", "MoveAndTurn\
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ForwardPipes", "ForwardPipes\ForwardPipes.fsproj", "{551696D7-DB2F-4ABD-A41A-72D1C6DFA732}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Fold", "Fold\Fold.fsproj", "{84CC7BB6-CCF4-4C4A-8C23-348BEF95FC61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{551696D7-DB2F-4ABD-A41A-72D1C6DFA732}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{551696D7-DB2F-4ABD-A41A-72D1C6DFA732}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{551696D7-DB2F-4ABD-A41A-72D1C6DFA732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84CC7BB6-CCF4-4C4A-8C23-348BEF95FC61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84CC7BB6-CCF4-4C4A-8C23-348BEF95FC61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84CC7BB6-CCF4-4C4A-8C23-348BEF95FC61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84CC7BB6-CCF4-4C4A-8C23-348BEF95FC61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
