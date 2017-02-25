@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26206.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tuples", "Tuples\Tuples.fsproj", "{B4D28CE7-A3FC-403E-B2A7-DBDC365865FC}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "NaiveLine", "NaiveLine\NaiveLine.fsproj", "{B4D28CE7-A3FC-403E-B2A7-DBDC365865FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
