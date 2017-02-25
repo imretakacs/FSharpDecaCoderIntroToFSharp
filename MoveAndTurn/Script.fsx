@@ -61,12 +61,29 @@ let initialPlotter = {
    direction= 0.0
    bitmap= bitmap }
 
-(move 15 
-   (turn -90.0 
-      (move 20 
-         (turn -90.0 
-            (move 15 
-               (turn 90.0 
-                  (move 60
-                     (turn 90.0 
-                        (move 15 initialPlotter))))))))).bitmap.Save(pathAndFileName)
+
+let drawn = 
+   initialPlotter |> move 15
+   |> turn 90.0
+   |> move 60
+   |> turn 90.0
+   |> move 15
+   |> turn -90.0
+   |> move 20
+   |> turn -90.0
+   |> move 15
+
+drawn.bitmap.Save(pathAndFileName)
+
+//(move 15 
+// (turn -90.0 
+    //  (move 20 
+      //   (turn -90.0 
+        //    (move 15 
+          //     (turn 90.0 
+            //      (move 60
+              //       (turn 90.0 
+                //        (move 15 initialPlotter))))))))).bitmap.Save(pathAndFileName)
+
+
+ 
